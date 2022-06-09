@@ -19,7 +19,7 @@ import br.com.lab.products.api.dtos.ProductDTO;
 import br.com.lab.products.services.interfaces.ProductService;
 
 @Controller
-@RequestMapping(path="/product")
+@RequestMapping(path="/products")
 public class ProductController {
 
 	@Autowired
